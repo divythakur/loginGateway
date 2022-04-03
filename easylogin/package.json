@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "version": "auto-changelog -p && git add CHANGELOG.md && git commit -m \"CHANGELOG updated\""
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "auto-changelog": "^2.4.0",
     "husky": "^7.0.4"
   },
   "husky": {
