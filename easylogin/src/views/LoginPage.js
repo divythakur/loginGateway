@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { Typography } from "@material-ui/core";
+// import PropTypes from "prop-types";
+import Typography from "@mui/material/Typography";
 
 class LoginPage extends Component {
   // constructor(props) {
@@ -25,7 +25,9 @@ class LoginPage extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome to the login page</h1>
+        <Typography variant="h1" color="primary">
+          Welcome to the login page
+        </Typography>
       </div>
     );
   }
