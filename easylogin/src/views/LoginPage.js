@@ -1,52 +1,36 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import {Typography} from '@material-ui/core'
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { Typography } from "@material-ui/core";
 
 class LoginPage extends Component {
-    // constructor(props) {
-    //     super(props);
+  // constructor(props) {
+  //     super(props);
 
-    // }
+  // }
 
-    componentWillMount() {
+  componentWillMount() {}
 
-    }
+  componentDidMount() {}
 
-    componentDidMount() {
+  componentWillReceiveProps(nextProps) {}
 
-    }
+  shouldComponentUpdate(nextProps, nextState) {}
 
-    componentWillReceiveProps(nextProps) {
+  componentWillUpdate(nextProps, nextState) {}
 
-    }
+  componentDidUpdate(prevProps, prevState) {}
 
-    shouldComponentUpdate(nextProps, nextState) {
+  componentWillUnmount() {}
 
-    }
-
-    componentWillUpdate(nextProps, nextState) {
-
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-
-    }
-
-    componentWillUnmount() {
-
-    }
-
-    render() {
-        return (
-            <div>
-          <h1>Welcome to the login page</h1>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <h1>Welcome to the login page</h1>
+      </div>
+    );
+  }
 }
 
-LoginPage.propTypes = {
-
-};
+LoginPage.propTypes = {};
 
 export default LoginPage;
